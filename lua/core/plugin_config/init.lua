@@ -5,6 +5,7 @@ require("core.plugin_config.treesitter")
 require("core.plugin_config.telescope")
 require("core.plugin_config.barbar")
 require("core.plugin_config.neoterm")
-require("core.plugin_config.packer")
 require("core.plugin_config.coc")
+require("core.plugin_config.packer")
+require("core.plugin_config.autoclose")
 
