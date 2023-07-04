@@ -6,7 +6,7 @@ This is a simple, lightweight and intuitive IDE-like configuration for NeoVim
 
 | Key        | Action                   |
 | ---------- | ------------------------ |
-| <leader>bb | Moves to previous buffer |
+| \<leader\>bb | Moves to previous buffer |
 | <leader>bn | Moves to next buffer     |
 | <leader>bc | Closes current buffer    |
 
