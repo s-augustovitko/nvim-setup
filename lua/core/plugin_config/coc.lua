@@ -73,6 +73,8 @@ keyset("n", "<leader>a", "<Plug>(coc-codeaction-cursor)", opts)
 keyset("n", "<leader>af", "<Plug>(coc-codeaction-source)", opts)
 -- Apply the most preferred quickfix action on the current line.
 keyset("n", "<leader>aq", "<Plug>(coc-fix-current)", opts)
+-- Show all diagnostics
+keyset("n", "<leader>ad", ":<C-u>CocList diagnostics<cr>", opts)
 
 -- Remap keys for apply refactor code actions.
 keyset("n", "<leader>rf", "<Plug>(coc-codeaction-refactor)", { silent = true })

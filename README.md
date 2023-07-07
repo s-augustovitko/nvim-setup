@@ -25,6 +25,7 @@ This is a simple, lightweight and intuitive IDE-like configuration for NeoVim
 | \<leader\>af        | Quick fix file                   |
 | \<leader\>aq        | Quick fix                        |
 | \<leader\>rf        | Code refactor                    |
+| \<leader\>ad        | List diagnostics                 |
 | \<C-j\> and \<C-k\> | Scroll window popup              |
 | \<TAB\>             | Select current option            |
 | \<C-n\>             | Move next completion Option      |
