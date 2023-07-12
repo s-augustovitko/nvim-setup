@@ -109,3 +109,6 @@ vim.api.nvim_create_user_command("Organize", "call CocActionAsync('runCommand', 
 -- NOTE: Please see `:h coc-status` for integrations with external plugins that
 -- provide custom statusline: lightline.vim, vim-airline
 vim.opt.statusline:prepend("%{coc#status()}%{get(b:,'coc_current_function','')}")
+
+vim.keymap.set('n', '<Space>cr', ':CocRestart<CR>')
+vim.keymap.set('n', '<Space>cc', ':CocConfig<CR>')
