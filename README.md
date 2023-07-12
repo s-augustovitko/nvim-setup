@@ -12,27 +12,25 @@ This is a simple, lightweight and intuitive IDE-like configuration for NeoVim
 
 ## Keymaps LSP
 
-| Key                 | Action                             |
-| ------------------- | ---------------------------------- |
-| gd                  | Go to definition                   |
-| gy                  | Go to type definition              |
-| gi                  | Go to implementation               |
-| gr                  | Show references                    |
-| K                   | Show docs                          |
-| \<leader\>r         | Rename symbol                      |
-| \<leader\>f         | Format selection                   |
-| \<leader\>a         | Code actions for current element   |
-| \<leader\>af        | Quick fix file                     |
-| \<leader\>aq        | Quick fix                          |
-| \<leader\>rf        | Code refactor                      |
-| \<leader\>ad        | List diagnostics                   |
-| \<leader\>cc        | Open Coc Config (ide tools config) |
-| \<leader\>cr        | Restart Coc (ide tools)            |
-| \<C-j\> and \<C-k\> | Scroll window popup                |
-| \<TAB\>             | Select current option              |
-| \<C-n\>             | Move next completion Option        |
-| \<C-b\>             | Move previous completion Option    |
-| \<leader\>sd        | Trigger snippts                    |
+| Key                 | Action                           |
+| ------------------- | -------------------------------- |
+| gd                  | Go to definition                 |
+| gy                  | Go to type definition            |
+| gi                  | Go to implementation             |
+| gr                  | Show references                  |
+| K                   | Show docs                        |
+| \<leader\>r         | Rename symbol                    |
+| \<leader\>f         | Format selection                 |
+| \<leader\>a         | Code actions for current element |
+| \<leader\>af        | Quick fix file                   |
+| \<leader\>aq        | Quick fix                        |
+| \<leader\>rf        | Code refactor                    |
+| \<leader\>ad        | List diagnostics                 |
+| \<C-j\> and \<C-k\> | Scroll window popup              |
+| \<TAB\>             | Select current option            |
+| \<C-n\>             | Move next completion Option      |
+| \<C-b\>             | Move previous completion Option  |
+| \<leader\>sd        | Trigger snippts                  |
 
 ## Keymaps System
 
