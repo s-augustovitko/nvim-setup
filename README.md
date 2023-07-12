@@ -38,6 +38,7 @@ This is a simple, lightweight and intuitive IDE-like configuration for NeoVim
 | ------------ | ------------------- |
 | \<C-t\>      | Toggle terminal     |
 | \<leader\>e  | Toggle NvimTree     |
+| \<leader\>tr | NvimTree Refresh    |
 | \<leader\>ff | Find file           |
 | \<leader\>fg | Search in all files |
 | \<leader\>ps | Packer Sync         |
