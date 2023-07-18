@@ -43,6 +43,8 @@ This is a simple, lightweight and intuitive IDE-like configuration for NeoVim
 | \<leader\>fg | Search in all files |
 | \<leader\>ps | Packer Sync         |
 | \<leader\>pu | Packer Update       |
+| \<            | Indent forwards     |
+| \>            | Indent backwards    |
 
 ## Keymaps Window
 
