@@ -36,6 +36,8 @@ require("nvim-tree").setup({
     local ok, api = pcall(require, "nvim-tree.api")
     assert(ok, "api module is not found")
 
+    api.config.mappings.default_on_attach(bufnr)
+
     vim.keymap.set("n", "<CR>", api.node.open.tab_drop, opts("Tab drop"))
     vim.keymap.set('n', 'c', copy_file_to, opts('Copy File To'))
     vim.keymap.set("n", "l", edit_or_open, opts("Edit Or Open"))
