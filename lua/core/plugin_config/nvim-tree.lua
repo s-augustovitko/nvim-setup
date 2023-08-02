@@ -25,7 +25,6 @@ require("nvim-tree").setup({
 
     api.config.mappings.default_on_attach(bufnr)
 
-    vim.keymap.set("n", "<CR>", api.node.open.tab_drop, opts("Tab drop"))
     vim.keymap.set("n", "l", edit_or_open, opts("Edit Or Open"))
   end
 })
