@@ -1,3 +1,10 @@
 {
-  "coc.preferences.formatOnSave": true
+  "coc.preferences.formatOnSave": true,
+  "languageserver": {
+    "crystal": {
+      "command": "crystalline",
+      "args": ["--stdio"],
+      "filetypes": ["crystal"]
+    }
+  }
 }
