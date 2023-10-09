@@ -31,7 +31,6 @@ return require('packer').startup(function(use)
   use 'romgrk/barbar.nvim'      -- tabs
   use 'itmecho/neoterm.nvim'    -- floating terminal
   use 'm4xshen/autoclose.nvim'  -- autoclose
-  use 'mfussenegger/nvim-dap'   -- debugger
 
   if packer_bootstrap then
     require('packer').sync()
