@@ -26,7 +26,13 @@ require("nvim-tree").setup({
     api.config.mappings.default_on_attach(bufnr)
 
     vim.keymap.set("n", "l", edit_or_open, opts("Edit Or Open"))
-  end
+  end,
+  filters = {
+    git_ignored = false,
+    dotfiles = false,
+    git_clean = false,
+    no_buffer = false,
+  }
 })
 
 vim.keymap.set('n', '<Space>e', ':NvimTreeFindFileToggle<CR>')

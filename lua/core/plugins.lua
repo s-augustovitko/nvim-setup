@@ -30,7 +30,6 @@ return require('packer').startup(function(use)
   use 'lewis6991/gitsigns.nvim' -- github signs
   use 'romgrk/barbar.nvim'      -- tabs
   use 'itmecho/neoterm.nvim'    -- floating terminal
-  use 'm4xshen/autoclose.nvim'  -- autoclose
 
   if packer_bootstrap then
     require('packer').sync()
