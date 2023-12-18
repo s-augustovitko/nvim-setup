@@ -104,3 +104,17 @@ vim.api.nvim_create_user_command("Organize", "call CocActionAsync('runCommand', 
 -- NOTE: Please see `:h coc-status` for integrations with external plugins that
 -- provide custom statusline: lightline.vim, vim-airline
 vim.opt.statusline:prepend("%{coc#status()}%{get(b:,'coc_current_function','')}")
+
+vim.g.coc_global_extensions = {
+  "coc-pairs",
+  "coc-prettier",
+  "coc-lua",
+  "coc-tsserver",
+  "coc-svelte",
+  "coc-rust-analyzer",
+  "coc-json",
+  "coc-go",
+  "coc-toml",
+  "coc-sh",
+  "coc-markdownlint",
+}
