@@ -106,6 +106,7 @@ and names can be found in [Coc Extensions](https://github.com/neoclide/coc.nvim/
 - coc-toml
 - coc-sh
 - coc-markdownlint
+- coc-css
 
 ### Tree sitter
 
@@ -115,7 +116,6 @@ can be installed by using `:TSInstall <extension>`.
 - lua
 - vim
 - rust
-- python
 - go
 - javascript
 - typescript
@@ -125,3 +125,4 @@ can be installed by using `:TSInstall <extension>`.
 - toml
 - bash
 - markdown
+- css
