@@ -107,6 +107,7 @@ and names can be found in [Coc Extensions](https://github.com/neoclide/coc.nvim/
 - coc-sh
 - coc-markdownlint
 - coc-css
+- coc-tailwindcss
 
 ### Tree sitter
 
