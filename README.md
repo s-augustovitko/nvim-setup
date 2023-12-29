@@ -51,6 +51,7 @@ This is a simple, lightweight and intuitive IDE-like configuration for NeoVim
 | ------------ | ------------------- |
 | \<leader\>ff | Find file           |
 | \<leader\>fg | Search in all files |
+| \<leader\>fb | Find buffer         |
 
 ### Window
 
@@ -67,6 +68,7 @@ This is a simple, lightweight and intuitive IDE-like configuration for NeoVim
 - [Node Js](https://nodejs.org/en/download/package-manager)
 - [Neo Vim](https://github.com/neovim/neovim/blob/master/INSTALL.md)
 - [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts?tab=readme-ov-file#option-6-ad-hoc-curl-download)
+- [Ripgrep](https://github.com/BurntSushi/ripgrep?tab=readme-ov-file#installation)
 
 ### Installation Steps
 

@@ -24,7 +24,7 @@ return require('packer').startup(function(use)
   }                                     -- status bar
   use 'nvim-treesitter/nvim-treesitter' -- syntax highlight
   use {
-    'nvim-telescope/telescope.nvim', tag = '0.1.2',
+    'nvim-telescope/telescope.nvim', tag = '0.1.5',
     requires = { { 'nvim-lua/plenary.nvim' } }
   }                             -- fuzzy finder
   use 'lewis6991/gitsigns.nvim' -- github signs
