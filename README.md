@@ -33,13 +33,25 @@ This is a simple, lightweight and intuitive IDE-like configuration for NeoVim
 | \<S-TAB\>    | Move previous completion Option  |
 | \<C-leader\> | Refresh autocomplete             |
 
+### Tree View
+
+| Key          | Action                        |
+| ------------ | ----------------------------- |
+| \<leader\>e  | Toggle NvimTree               |
+| \<leader\>tr | NvimTree refresh              |
+| \<TAB\>      | Open preview                  |
+| \<C-p\>      | Switch parent to current node |
+| f            | Filter                        |
+| F            | Clear filter                  |
+| c            | Mark Copy                     |
+| x            | Mark Cut                      |
+| p            | Paste Marked                  |
+
 ### System
 
 | Key          | Action           |
 | ------------ | ---------------- |
 | \<C-t\>      | Toggle terminal  |
-| \<leader\>e  | Toggle NvimTree  |
-| \<leader\>tr | NvimTree Refresh |
 | \<leader\>ps | Packer Sync      |
 | \<leader\>pu | Packer Update    |
 | \<TAB\>      | Indent forwards  |

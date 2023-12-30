@@ -20,13 +20,16 @@ require("nvim-tree").setup({
     local function opts(desc)
       return { desc = 'nvim-tree: ' .. desc, buffer = bufnr, noremap = true, silent = true, nowait = true }
     end
+
     local ok, api = pcall(require, "nvim-tree.api")
     assert(ok, "api module is not found")
 
     api.config.mappings.default_on_attach(bufnr)
 
     vim.keymap.set("n", "l", edit_or_open, opts("Edit Or Open"))
+    vim.keymap.set("n", "<C-p>", api.tree.change_root_to_node, opts "CD")
   end,
+
   filters = {
     git_ignored = false,
     dotfiles = false,
