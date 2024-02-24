@@ -83,7 +83,6 @@ This is a simple, lightweight and intuitive IDE-like configuration for NeoVim
 - [Ripgrep](https://github.com/BurntSushi/ripgrep?tab=readme-ov-file#installation)
 - [Fd](https://github.com/sharkdp/fd?tab=readme-ov-file#installation)
 - [PyNvim](https://github.com/neovim/pynvim?tab=readme-ov-file#install)
-- [EdgeDb](https://www.edgedb.com/docs/intro/quickstart)
 
 ### Installation Steps
 
