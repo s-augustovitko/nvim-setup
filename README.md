@@ -115,7 +115,6 @@ and names can be found in [Coc Extensions](https://github.com/neoclide/coc.nvim/
 - coc-prettier
 - coc-lua
 - coc-tsserver
-- coc-svelte
 - coc-rust-analyzer
 - coc-json
 - coc-go
@@ -138,7 +137,6 @@ can be installed by using `:TSInstall <extension>`.
 - typescript
 - json
 - make
-- svelte
 - toml
 - bash
 - markdown

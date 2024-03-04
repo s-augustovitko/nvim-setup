@@ -110,7 +110,6 @@ vim.g.coc_global_extensions = {
   "coc-prettier",
   "coc-lua",
   "coc-tsserver",
-  "coc-svelte",
   "coc-rust-analyzer",
   "coc-json",
   "coc-go",
