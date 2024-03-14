@@ -113,7 +113,7 @@ vim.g.coc_global_extensions = {
   "coc-rust-analyzer",
   "coc-json",
   "coc-yaml",
-  "coc-flutter",
+  "coc-flutter-tools",
   "coc-go",
   "coc-toml",
   "coc-sh",

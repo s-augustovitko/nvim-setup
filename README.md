@@ -120,7 +120,7 @@ and names can be found in [Coc Extensions](https://github.com/neoclide/coc.nvim/
 - coc-json
 - coc-go
 - coc-yaml
-- coc-flutter
+- coc-flutter-tools
 - coc-toml
 - coc-sh
 - coc-markdownlint
