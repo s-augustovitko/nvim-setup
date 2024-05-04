@@ -83,7 +83,6 @@ This is a simple, lightweight and intuitive IDE-like configuration for NeoVim
 - [Ripgrep](https://github.com/BurntSushi/ripgrep?tab=readme-ov-file#installation)
 - [Fd](https://github.com/sharkdp/fd?tab=readme-ov-file#installation)
 - [PyNvim](https://github.com/neovim/pynvim?tab=readme-ov-file#install)
-- [Flutter](https://docs.flutter.dev/get-started/install/linux)
 
 ### Installation Steps
 
@@ -120,7 +119,6 @@ and names can be found in [Coc Extensions](https://github.com/neoclide/coc.nvim/
 - coc-json
 - coc-go
 - coc-yaml
-- coc-flutter-tools
 - coc-toml
 - coc-sh
 - coc-markdownlint
@@ -145,4 +143,3 @@ can be installed by using `:TSInstall <extension>`.
 - markdown
 - css
 - yaml
-- dart
