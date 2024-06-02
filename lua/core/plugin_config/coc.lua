@@ -119,4 +119,5 @@ vim.g.coc_global_extensions = {
   "coc-markdownlint",
   "coc-css",
   "coc-tailwindcss",
+  "coc-clangd",
 }
