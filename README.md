@@ -84,6 +84,7 @@ This is a simple, lightweight and intuitive IDE-like configuration for NeoVim
 - [Fd](https://github.com/sharkdp/fd?tab=readme-ov-file#installation)
 - [PyNvim](https://github.com/neovim/pynvim?tab=readme-ov-file#install)
 - [Clangd](https://github.com/clangd/clangd) `sudo apt install clangd`
+- [wl-clipboard](https://github.com/bugaevc/wl-clipboard) `sudo apt install wl-clipboard`
 
 ### Installation Steps
 
