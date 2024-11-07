@@ -13,6 +13,7 @@ local packer_bootstrap = ensure_packer()
 
 return require('packer').startup(function(use)
   use 'wbthomason/packer.nvim'
+
   -- My plugins
   use 'Mofiqul/dracula.nvim'                      -- theme
   use { 'neoclide/coc.nvim', branch = 'release' } -- ide utils (autocomplete, format, code actions, etc)
@@ -33,7 +34,8 @@ return require('packer').startup(function(use)
   use {
     'folke/todo-comments.nvim',
     requires = { 'nvim-lua/plenary.nvim' }
-  }
+  }                        -- TODO comments highlight
+  use 'slint-ui/vim-slint' -- Slint support
 
   if packer_bootstrap then
     require('packer').sync()
