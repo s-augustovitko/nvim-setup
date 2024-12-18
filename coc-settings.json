@@ -1,11 +1,5 @@
 {
   "coc.preferences.formatOnSave": true,
   "coc.preferences.extensionUpdateCheck": "daily",
-  "clangd.path": "/bin/clangd",
-  "languageserver": {
-    "slint": {
-      "filetypes": ["slint"],
-      "command": "slint-lsp"
-    }
-  }
+  "clangd.path": "/bin/clangd"
 }

@@ -34,8 +34,7 @@ return require('packer').startup(function(use)
   use {
     'folke/todo-comments.nvim',
     requires = { 'nvim-lua/plenary.nvim' }
-  }                        -- TODO comments highlight
-  use 'slint-ui/vim-slint' -- Slint support
+  } -- TODO comments highlight
 
   if packer_bootstrap then
     require('packer').sync()
