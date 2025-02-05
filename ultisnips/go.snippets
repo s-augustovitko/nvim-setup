@@ -29,8 +29,8 @@ snippet widget "Create a golang widget for gioui"
 type ${1}Style struct {
 }
 
-func ${1}(theme *theme.Theme) ${1}Style {
-	return ${1}Style{}
+func ${1}(theme *theme.Theme) *${1}Style {
+	return &${1}Style{}
 }
 
 func (f *${1}Style) Layout(gtx C) D {
