@@ -120,4 +120,5 @@ vim.g.coc_global_extensions = {
   "coc-css",
   "coc-tailwindcss",
   "coc-clangd",
+  "coc-snippets"
 }

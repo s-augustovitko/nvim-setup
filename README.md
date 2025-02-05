@@ -96,6 +96,10 @@ git clone git@github.com:s-augustovitko/nvim-setup.git ~/.config/nvim
 
 ## Notes
 
+### Import snippets
+
+Follow the instructions under `ultisnips/README.md`
+
 ### Updates
 
 Coc automatically updates extensions daily, this functionality can be removed
@@ -127,6 +131,7 @@ and names can be found in [Coc Extensions](https://github.com/neoclide/coc.nvim/
 - coc-css
 - coc-tailwindcss
 - coc-clangd
+- coc-snippets
 
 ### Tree sitter
 
@@ -136,7 +141,7 @@ can be installed by using `:TSInstall <extension>`.
 - lua
 - vim
 - rust
-- go
+  -o
 - javascript
 - typescript
 - json
