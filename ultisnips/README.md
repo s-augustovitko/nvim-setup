@@ -8,4 +8,4 @@ the following path
 
 you can do this with the following command
 
-`cp -r . ~/.config/coc/ultisnips`
+`mkdir -p ~/.config/coc/ultisnips && cp -r ~/.config/nvim/ultisnips/*.snippets ~/.config/coc/ultisnips`
